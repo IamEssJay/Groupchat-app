@@ -9,8 +9,8 @@ const style={
 }
 
 function App() {
- // const [user]= useAuthState(auth)(18:00)
- // console.log(user)
+  const [user]= useAuthState(auth)//(18:00)
+  console.log(user)
   
   return (
     <div className={style.appContainer}>

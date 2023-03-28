@@ -8,7 +8,7 @@ const style={
 
 }
 const Navbar = () => {
-    //const [user]=useAuthState(auth)
+   const [user]=useAuthState(auth)
     return (
         <div className={style.nav}>
             <h1 className={style.heading}> Chat App</h1>
