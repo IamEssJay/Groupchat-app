@@ -28,7 +28,9 @@ const Chat = () => {
     return ( 
         <>
         <main className={style.main}>
-           <Message/>
+            {messages && messages.map((message)=>{
+                <Message/>
+            })}
            
         </main>
         {/*chat Message components */}
