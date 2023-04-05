@@ -17,7 +17,7 @@ function App() {
     <div className={style.appContainer}>
       <section className={style.sectionContainer}>
         <Navbar/>
-        {user? <Chat/>: null}
+        <Chat/>
        
       </section>
       
