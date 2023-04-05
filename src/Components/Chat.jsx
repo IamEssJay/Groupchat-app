@@ -7,7 +7,7 @@ import { db } from "../firebase";
 import SendMessage from "./SendMessage";
 
 const style={
-    main:`flex flex-col p-[10px] relative `
+    main:`flex flex-col p-[10px]  `
 }
 const Chat = () => {
     const [messages, setMessages] = useState([]);
