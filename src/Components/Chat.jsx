@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { useRef } from "react";
 import Message from "./Message";
 import { db } from "../firebase";
+import SendMessage from "./SendMessage";
 
 const style={
     main:`flex flex-col p-[10px] relative`
@@ -34,6 +35,7 @@ const Chat = () => {
           ))}
       </main>
         {/*send Message components */}
+        <SendMessage scroll={scroll}/>
         <span ref={scroll}></span>
         </>
         
