@@ -5,12 +5,12 @@ import{useAuthState}from 'react-firebase-hooks/auth';
 import Chat from './Components/Chat';
 
 const style={
-  appContainer:`max-w-[728px]  mx-auto txt-center`,
-  sectionContainer:`flex flex-col h-[100%] bg-gray-100 mt-10 shadow-xl py-10 border relative`,
-}
+  appContainer: `max-w-[728px] mx-auto text-center`,
+  sectionContainer: `flex flex-col h-[90%] bg-gray-100 mt-10 shadow-xl border relative`,
+};
 
 function App() {
-  const [user]= useAuthState(auth)//(18:00)
+  const [user]= useAuthState(auth)
   console.log(user)
   
   return (
